@@ -4,8 +4,8 @@
 
 ```hcl
 module "vpc" {
-  source  = ""
-  version = "0.0.1"
+  source  = "mirlan2403/vpc/module"
+  version = "0.0.3"
   region = "us-east-2"
   cidr_vpc = "10.0.0.0/16"
   cidr_public1 = "10.0.1.0/24"
